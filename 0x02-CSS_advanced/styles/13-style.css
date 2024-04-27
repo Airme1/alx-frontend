@@ -42,16 +42,16 @@ a:not(:empty) {
   text-decoration: none;
 }
 
-a:visited{
-    font-style: italic;
+a:not(:empty):visited {
+  font-style: italic;
 }
 
-a:hover{
-    text-decoration: underline;
+a:not(:empty):hover {
+  text-decoration: underline;
 }
 
-a:active{
-    color: var(--color-light-grey);
+a:not(:empty):active {
+  color: var(--color-light-grey);
 }
 
 h1,
