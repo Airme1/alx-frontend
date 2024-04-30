@@ -450,7 +450,7 @@ body {
   left: var(--header-logo-link-left);
 }
 
-a:not(:empty) {
+a:link {
   color: var(--text-color);
   text-decoration: none;
 }
@@ -663,7 +663,7 @@ ul.row {
   position: relative;
 }
 
-.card-work:link .card-work {
+.card-work:link .card-work a {
   display: block;
   text-decoration: none;
   padding-top: 45%;
