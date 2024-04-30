@@ -647,6 +647,7 @@ ul.row {
   top: -0.1rem;
   left: -0.1rem;
   right: -0.1rem;
+  bottom: -0.1rem;
   z-index: 1;
 }
 
@@ -662,7 +663,7 @@ ul.row {
   position: relative;
 }
 
-.card-work .card-work a {
+.card-work .card-title a {
   display: block;
   text-decoration: none;
   padding-top: 45%;
